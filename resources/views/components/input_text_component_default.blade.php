@@ -4,7 +4,7 @@
         @if ($hint) <span class="text-sm leading-5 text-gray-500">{{ $hint }}</span> @endif
     </div>
     <div class="mt-1 relative rounded-md shadow-sm">
-        <input id="{{ $id }}" type="{{ $type ?? 'text' }}" class="form-input block w-full sm:text-sm sm:leading-5" placeholder="{{ $placeholder }}" value="{{ $value }}" />
+        <input id="{{ $id }}" type="{{ $type ?? 'text' }}" class="form-input block w-full sm:text-sm sm:leading-5" placeholder="{{ $placeholder }}" value="{{ $value }}" {{$attributes}} />
 
         <div class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
             @if ($error)
