@@ -2,7 +2,6 @@
 
 namespace Tests;
 
-use Illuminate\Foundation\Testing\Concerns\MakesHttpRequests;
 use NunoMaduro\LaravelMojito\InteractsWithViews;
 
 class ComponentsTest extends TestCase
