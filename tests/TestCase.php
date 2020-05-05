@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use Grosv\TailwindComponents\TailwindComponentsProvider;
+use Grosv\BladeComponents\BladeComponentsProvider;
 use NunoMaduro\LaravelMojito\MojitoServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
@@ -18,7 +18,7 @@ class TestCase extends BaseTestCase
     protected function getPackageProviders($app)
     {
         return [
-            TailwindComponentsProvider::class,
+            BladeComponentsProvider::class,
             MojitoServiceProvider::class
         ];
     }

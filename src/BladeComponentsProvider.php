@@ -1,16 +1,16 @@
 <?php
 
 
-namespace Grosv\TailwindComponents;
+namespace Grosv\BladeComponents;
 
-use Grosv\TailwindComponents\Components\ButtonComponent;
-use Grosv\TailwindComponents\Components\ExampleComponent;
-use Grosv\TailwindComponents\Components\InputTextComponent;
+use Grosv\BladeComponents\Components\ButtonComponent;
+use Grosv\BladeComponents\Components\ExampleComponent;
+use Grosv\BladeComponents\Components\InputTextComponent;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 
 
-class TailwindComponentsProvider extends ServiceProvider
+class BladeComponentsProvider extends ServiceProvider
 {
 
     public function boot(): void

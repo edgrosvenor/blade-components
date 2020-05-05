@@ -1,8 +1,8 @@
 {
-    "name": "grosv/tailwind-ui-components",
-    "description": "TailwindUI Components as Laravel 7 Blade Components",
+    "name": "grosv/blade-components",
+    "description": "Laravel 7 Blade Components",
     "type": "library",
-    "license": "Proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Ed Grosvenor",
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Grosv\\TailwindComponents\\": "src/"
+            "Grosv\\BladeComponents\\": "src/"
         }
     },
     "autoload-dev": {
@@ -30,7 +30,7 @@
     },
     "extra": {
         "laravel": {
-            "providers": "Grosv\\TailwindComponents\\TailwindComponentsProvider"
+            "providers": "Grosv\\BladeComponents\\BladeComponentsProvider"
         }
     },
     "minimum-stability": "dev",

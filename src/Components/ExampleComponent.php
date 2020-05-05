@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Grosv\TailwindComponents\Components;
+namespace Grosv\BladeComponents\Components;
 
 use Illuminate\View\Component;
 
