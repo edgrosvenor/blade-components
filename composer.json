@@ -11,7 +11,8 @@
     ],
     "require": {
         "php": "^7.4",
-        "illuminate/support": "^7.0"
+        "illuminate/support": "^7.0",
+      "ext-json": "*"
     },
     "require-dev": {
         "orchestra/testbench": "5.x-dev",
